@@ -93,45 +93,6 @@ function showForm(type) {
     }
 }
 
-/*
-
-0 -> MAX 5
-1 -> MAX 7
-
--------------------
-Country = [0,1,2]
-
-Classes = ['Math'...]
-
-//Credits are the number of As or Bs
-
-Grades = [ Credits1, Credits2, Credits3...]
-
-
--------------------
-function: 
-
-credit points(scale, classes) = 
-Country 0 ->
-Scale['A'] = [1,5,3,2]
-
-Country 1 -> 
-Scale['B'] = [1,2,5]
-
-Country 3 -> Credits[]
-...
-
--------------------
-
-Credits[n] = [n];
-...
-
-
--> Grades / |Classes|
-
-
-*/
-
 function getOption(el) {
     value = Array.from(el.selectedOptions)[0].getAttribute('value')
     return value;
