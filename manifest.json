@@ -1,0 +1,23 @@
+{
+    "name": "AVANTE",
+    "short_name": "AVANTE",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/assets/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+  ,
+      {
+        "src": "/assets/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+  
+    ]
+  }
+  

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Trispace:wght@100..800&display=swap');
+
+body {
+    background-color: #ffffff;
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(45deg, #b3d4ff 0, #b3d4ff 0.8px, #ffffff 0, #ffffff 50%);
+}
+.blink{
+  height: 0.1em;
+  width: 0.6em;
+  margin-left:0.2em;
+  display: inline-block;
+  animation: step-end blink .6s infinite;
+}
+@keyframes blink{
+  0%{opacity: 0;}
+ 50%{opacity: 1;}
+ 
+ 100%{opacity: 0;}
+}
+
+ul li{
+    color: #fff;
+    border:1px solid #fff;
+}
+
+
+.googleIcon{
+    
+    height: 1.5em;
+    margin: 0.2em;
+}
+.googleIcon path{
+    fill: #fff;
+}
+.selected{
+    color: #001e3e;
+    background-color: #ffffff;
+
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(45deg, #b3d4ff 0, #b3d4ff 0.8px, #ffffff 0, #ffffff 50%);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 8px #232323 inset;
+
+}
+.selected .googleIcon path{
+   fill:#001e3e !important;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  #gpa-wrap table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  #gpa-wrap table tr:nth-child(odd) { background: #f2f2f2; }
+  #gpa-wrap table tr td { padding: 10px; }
+
+form{
+    position: fixed;
+    overflow: scroll;
+    max-height: 70vh;
+    right: 0;
+    width: fit-content;
+    padding: 20px;
+    color: #fff;
+    background:rgba(0, 30, 62,0.5);
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 16px rgba(255,255,255,0.1) inset;
+    backdrop-filter: blur(2px);
+}
+
+form input, form select, form input{
+ color: #001e3e !important;
+}
+
+table tr, th, tr, td{
+ 
+  border: 1px solid #ffffff;
+  padding: 6px;
+}
+
+
+button:hover, button:focus{
+    background: none ;
+    color: #fff ;
+    border: 1px solid #fff;
+}
+
+button{
+    background: #fff !important;
+    color: #001e3e !important;
+    border: 1px solid #fff;
+    
+    padding: 12px !important;
+}
+
+input[type="number"]{
+ color: #fff !important;
+ padding: 5px;
+ width:4em;
+ margin: 0px;
+ background: none !important;
+}
+input[type="number"]:focus{
+  box-shadow: 0px 0px 4px #fff inset, 0px 0px 4px #fff ;
+  
+ outline: none !important;
+}
