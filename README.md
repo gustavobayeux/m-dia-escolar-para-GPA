@@ -3,7 +3,7 @@
 
 Sistema de conversão de média escolar brasileira para Grade Point Average de acordo com o país que o usuário quiser conferir.
 
-Acesso: http://gpaonline.rf.gd
+Acesso: [https://bayeux.tech/portfolio/gpa/](https://bayeux.tech/portfolio/gpa/)
 
 
 ## Funcionalidade
